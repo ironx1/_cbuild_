@@ -11,3 +11,10 @@ To build CBuild, you need cmake. Download and install cmake from https://cmake.o
 # Using CBuild
 
 To use CBuild, you need to provide the source files and the desired command using the -b command. For example, let's assume we have a main.c and sum.c file. To compile this project, our command would be CBuild -b main.c sum.c -exe. This command will generate the necessary build files. Then, you can execute the compilation and execution processes by running the .\BUILD\build-e.bat file. To only run the program, you can use the command .\BUILD\run.bat.
+
+# Commands
+1. -b:        Required to create object files.
+2. -exe:      To create the executable file.
+3. -lstatic:  not yet in use
+4. -lshared:  not yet in use
+5. -link:     not yet in use
