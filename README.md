@@ -9,8 +9,9 @@ To compile your C programs with CBuild, you need to have gcc installed on your s
 
 To build CBuild, you need cmake. Download and install cmake from https://cmake.org/, and then add cmake to your system PATH. Next, clone CBuild using git. If you don't have git, you can directly download the source code. After downloading, open the Windows Terminal and navigate to the location of CBuild using the command cd _cbuild_. Then, enter the command cmake -B build && cmake --build build. If the build process completes successfully, an executable file will be created in the bin folder.<br/>
 In short:
-1. cmake -B build -G "MinGW Makefiles"
-2. cmake --build build --config Release
+1. cd _cbuild_
+2. cmake -B build -G "MinGW Makefiles"
+3. cmake --build build --config Release
 
 # Using CBuild
 
